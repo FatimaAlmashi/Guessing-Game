@@ -1,33 +1,109 @@
+@import url("https://fonts.googleapis.com/css?family=Bad+Script|Baloo|Fredericka+the+Great|Open+Sans+Condensed:300");
+
 .App {
+  font-family: "Open Sans Condensed", sans-serif;
+  font-family: "Bad Script", cursive;
+  font-family: "Baloo", cursive;
+  font-family: "Fredericka the Great", cursive;
   text-align: center;
+  color: dimgray;
 }
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.Banner {
+  height: 50px;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 50px;
   color: white;
+  background-color: dimgray;
 }
-
-.App-link {
-  color: #61dafb;
+.Players {
+  width: 100%;
 }
+.FirstPlayer {
+  display: inline-block;
+  height: 260px;
+  width: 50%;
+  background-color: #a4d6dc;
+}
+.NameAndGuessInput {
+  height: 35px;
+  font-size: 30px;
+  color: dimgray;
+  text-align: center;
+  margin-bottom: 10px;
+  font-family: "Open Sans Condensed", sans-serif;
+  font-family: "Bad Script", cursive;
+  font-family: "Baloo", cursive;
+  font-family: "Fredericka the Great", cursive;
+}
+.GuessButton {
+  height: 50px;
+  width: 100px;
+  border-color: dimgray;
+  border-width: 2px;
+  display: inline-block;
+  color: dimgray;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  font-family: "Open Sans Condensed", sans-serif;
+  font-family: "Bad Script", cursive;
+  font-family: "Baloo", cursive;
+  font-family: "Fredericka the Great", cursive;
+}
+.Turn {
+  height: 50px;
+  width: 100px;
+  border-color: red;
+  border-width: 2px;
+  display: inline-block;
+  color: dimgray;
+
+  font-family: "Open Sans Condensed", sans-serif;
+  font-family: "Bad Script", cursive;
+  font-family: "Baloo", cursive;
+  font-family: "Fredericka the Great", cursive;
+}
+.SecondPlayer {
+  display: inline-block;
+  height: 260px;
+  width: 50%;
+  background-color: #d79395;
+}
+.HintAndResults {
+  height: 300px;
+  width: 100%;
+  background-color: dimgray;
+  color: white;
+  padding-top: 10px;
+}
+.Hint {
+  display: inline-block;
+  margin-right: 10px;
+}
+.HintDiv {
+  background-color: white;
+  color: dimgray;
+  width: 50%;
+  margin-right: 25%;
+  margin-left: 25%;
+  height: 50px;
+  text-align: center;
+  padding-bottom: 30px;
+  margin-bottom: 10px;
+  padding-right: 15px;
+  padding-left: 16px;
+}
+.WinnerDiv {
+  background-color: white;
+  color: dimgray;
+  width: 50%;
+  margin-right: 25%;
+  margin-left: 25%;
+  padding: 8px;
+  text-align: center;
+  border-style: double;
+  border-width: 8px;
+  border-top-color: #d79395;
+  border-bottom-color: #d79395;
+  border-right-color: #a4d6dc;
+  border-left-color: #a4d6dc;
 }
